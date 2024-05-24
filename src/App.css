@@ -1,0 +1,234 @@
+.navbar1{
+  padding: 50px 0;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(188, 188, 188) ;
+  justify-content: space-around;
+}
+.inp1{
+  border: none;
+  border-radius: 20px;
+ padding: 10px;
+}
+.icone{
+  font-size: 10px;
+  width: 200px;
+  border: 2px solid black;
+  text-align:center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.icon:hover{
+cursor: pointer;
+}
+.iconn2{
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  color: rgb(134,137,149);
+}
+.icon2:hover{
+  cursor: pointer;
+}
+.icon11{
+  font-size: 25px;
+}
+.iconn{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.shoes{
+  width: 600px;
+  height:700px;
+}
+
+
+
+/* Navbar */
+
+.ul1{
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+justify-content: center;
+list-style: none;
+gap: 30px;
+font-family: arial;
+font-size: 14px;
+}
+select{
+  width: 80px;
+  border: none;
+  font-size: 14px;
+}
+.container5{
+  width: 100%;
+}
+
+/* Adver */
+
+.container3{
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(168,242,235);
+  display: flex;
+}
+img{
+  width: 100%;
+}
+.textpho{
+  margin-top: 150px;
+width: 400px;
+
+}
+.textpho h1{
+   font-size: 50px;
+   letter-spacing:2px ;
+   font-family: arial;
+}
+.textpho p{
+  padding-top: 25px;
+  font-size: 20px;
+  font-family: courier;
+  letter-spacing: -1px;
+}
+.shop{
+  margin-top: 40px;
+  padding-top: 30px; 
+  padding: 15px 30px;
+  background-color: rgb(121,113,234);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.shop:hover{
+transition: 0.3s;
+position: relative;
+bottom: 5px;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.flex{
+  display: flex;
+}
+.advert{
+  display: flex;
+  justify-content: space-around;
+
+}
+.big{
+  width: 100%;
+  background-color:rgb(168,242,235); 
+}
+
+
+/* About */
+
+.container{
+display: flex;
+  padding: 80px 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+.que{
+  width: 350px;
+  display: flex;
+  gap: 15px;
+}
+.icon4{
+  font-size: 90px;
+color: rgb(121,113,234);
+padding-bottom:50px;
+}
+.que h3{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.section5{
+  width: 100%;
+  padding: 150px 0;
+  display: flex;
+  gap: 50px;
+justify-content: center;
+align-items: center;
+border-top: 1px solid rgb(188, 188, 188) ;
+border-bottom:1px solid rgb(188, 188, 188) ;
+}
+.imgg{
+  width: 350px;
+height: auto;
+overflow: hidden;
+
+}
+
+.imgg:hover .pht{
+  transform: scale(1.2);
+  transition: all 0.5;
+}
+
+.pht{
+  transform: scale(1);
+  z-index: -111;
+  position: relative;
+}
+.textt{
+  margin-top: -80px;
+  margin-left: 10px;
+  z-index: 222;
+}
+.textt h3{
+  margin-top: 10px;
+  font-size: 25px;
+  color: white;
+}
+span{
+  color: white;
+}
+.sale{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+
+}
+.sale div{
+  height: 50%;
+  width: 100%;
+}
+.salediv{
+  padding-left: 50px;
+  text-align: center;
+}
+.salediv h3{
+padding-right: 80px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+ .ph2{
+  width: 50%;
+  height: 100%;
+  padding: 100px;
+ }
+ .ph{
+  width: 50%;
+  height: 100%;
+ }
+ .ph2 h3{
+  margin-bottom: 30px;
+ }
+ .salediv{
+  text-align: center;
+ }
+ .salediv h3{
+  margin-top: 50px;
+ }
